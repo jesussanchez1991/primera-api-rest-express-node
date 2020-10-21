@@ -1,0 +1,22 @@
+Instalar heroku cli
+
+en cmd
+heroku --version
+
+creamos una app en heroku dashboard
+
+en cmd:
+heroku login
+
+antes de continuar añadimos start en package.json
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+
+heroku git:remote -a api-rest-prueba-jesus
+
+git add .
+git commit -am "Primer despliegue en heroku"
+git push heroku master
