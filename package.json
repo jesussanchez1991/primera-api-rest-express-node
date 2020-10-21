@@ -1,0 +1,20 @@
+{
+  "name": "7_Express_avanzado_y_middlewares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "config": "^3.3.2",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

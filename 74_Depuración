@@ -1,0 +1,7 @@
+Instalamos el módulo que nos permite trabajar la depuración de forma mas sencilla
+npm install debug
+
+importamos, insertamos código y para usarlo
+ en consola: set DEBUG=app:db
+ set export DEBUG=app:db. app:inicio
+ export DEBUG=app:*

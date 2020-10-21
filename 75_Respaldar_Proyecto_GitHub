@@ -1,0 +1,10 @@
+git config --global user.name "Jesus"
+git config --global user.email "jesus.sanchez.colunche@gmail.com"
+
+ahora de forma global
+git init
+
+creamos un archivo llamado .gitignore
+git add .
+git status
+git commit -m "Primer commit"

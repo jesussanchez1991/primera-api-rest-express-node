@@ -1,0 +1,11 @@
+En la web de npm: config
+
+instalar config
+crear carpeta config
+archivos:   default.json
+            development.json
+            production.json
+
+por defecto está en desarrollo
+paramos el servicio
+set NODE_ENV=production
