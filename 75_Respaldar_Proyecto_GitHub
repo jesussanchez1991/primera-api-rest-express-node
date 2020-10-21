@@ -8,3 +8,13 @@ creamos un archivo llamado .gitignore
 git add .
 git status
 git commit -m "Primer commit"
+
+creamos new repositorio en github y luego en consola pegamos
+git remote add origin https://github.com/jesussanchez1991/primera-api-rest-express-node.git
+
+
+Si volvemos a crear un archivo o modificación
+comprobamos con git status
+git add nuevoArchivo.js
+git commit -m "Añadiendo nuevoArchivo.js"
+git push -u origin main
