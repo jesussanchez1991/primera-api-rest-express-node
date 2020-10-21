@@ -10,6 +10,7 @@ git status
 git commit -m "Primer commit"
 
 creamos new repositorio en github y luego en consola pegamos
+git branch -M main
 git remote add origin https://github.com/jesussanchez1991/primera-api-rest-express-node.git
 git push -u origin main
 
